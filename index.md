@@ -34,12 +34,12 @@ Lors d'une deuxième partie nous avons reçu un programme qui pouvait dessiner d
 
 ![image](https://user-images.githubusercontent.com/71375990/126194350-8f93a1a4-5bd6-44bc-b853-a4ef0bec2667.png)
 
-Le code suivant signifie que si il ya une intersection entre deux balles on replace le centre des deux balles pour les empecher de fusionner et on met leur vélocité a celle que nous avons calculé précédemment grâce a un theorem de math - R qui est une constante qui représente l'énergie perdu lors du rebond.
+Le code suivant signifie que si il y a une intersection entre deux balles on replace le centre des deux balles pour les empêcher de fusionner et on met leur vélocité à celle que nous avons calculé précédemment, grâce à une formule de math, -R qui est une constante qui représente l'énergie perdue lors du rebond.
 
 ![image](https://user-images.githubusercontent.com/71375990/126194507-77ea2daa-90d5-4c24-8311-92514429c5f7.png)
 
-On obtient donc une simulation presque réaliste. Mais il ya un petit problème dans la programation, en effet on calcule les collisions entre tout les cercles même si il ne sont trés clairement pas en collision se qui fai très rapidement beaucoup de calcul et créer beaucoup de problème de collision.
+On obtient donc une simulation presque réaliste. Mais il y a un petit problème dans la programmation, en effet on calcule les collisions entre tous les cercles même si ils ne sont très clairement pas en collision ce qui fait très rapidement beaucoup de calculs et créer beaucoup de problèmes de collision.
 
-Nous avons donc eu le choix entre régler se problème grâce au space partitionnig ou de rajouter toute sorte de polygone au collsions.
+Nous avons donc eu le choix entre régler ce problème grâce au space partitioning ou de rajouter toute sorte de polygone aux collisions.
 
-J'ai choisi le space partitionnig car je voulais que mes collisions marche a 100%, le space partionning constiste à couper le monde en une gride et de vérifier les collisions seulement entre objet étant dans le même carré, grâce à celà on baisse grandement le nombre de calcul à effectuer.
+J'ai choisi le space partitioning car je voulais que mes collisions marchent à 100%, le space partitioning consiste à couper le monde en une grille et de vérifier les collisions seulement entre objet étant dans le même carré, grâce à cela on baisse grandement le nombre de calcul à effectuer.
