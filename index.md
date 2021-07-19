@@ -21,13 +21,13 @@ Suite à cela nous avons créé de nombreuses structures de données accompagné
 
 ![image](https://user-images.githubusercontent.com/71375990/126197506-d368858c-6582-4c30-98e1-f1ded191e594.png)
 
-AABB entours les polygones d'un carré puis on les projette en "x" et "y" pour voir si contact a lieu.
+_AABB entours les polygones d'un carré puis on les projette en "x" et "y" pour voir si contact a lieu._
 
 Durant cette partie grâce à mes nombreuses questions je pense avoir amélioré mon niveau en c++, en géométrie et en math. J'ai aussi appris pour la première fois comment utiliser une matrice.
 
 ![image](https://user-images.githubusercontent.com/71375990/126194261-c032d48b-977e-4aee-afc6-a5223b808aa5.png)
 
-Résolution de matrice grâce à la méthode de cramer (necessite le déterminent)
+_Résolution de matrice grâce à la méthode de cramer (necessite le déterminent)_
 
 
 Lors d'une deuxième partie nous avons reçu un programme qui pouvait dessiner des cercles qui tombaient et nous avons pour objectif de les faire rebondir et avoir des collisions réalistes. Cette partie fût plus compliquée pour moi. Voici quelques exemples de code, la fonction RelocateCenter nous permet de faire en sorte que les balles ne fusionnent pas.
