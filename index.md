@@ -38,10 +38,10 @@ _La fonction RelocateCenter nous permet de faire en sorte que les balles ne fusi
 
 ![image](https://user-images.githubusercontent.com/71375990/126194507-77ea2daa-90d5-4c24-8311-92514429c5f7.png)
 
-_Ce code signifie que si il y a une intersection entre deux balles on replace le centre des deux balles pour les empêcher de fusionner et on met leur vélocité à celle que nous avons calculé précédemment, grâce à une formule de math, -R qui est une constante qui représente l'énergie perdue lors du rebond._
+_Ce code signifie que si il y a une intersection entre deux balles on replace leur centre pour les empêcher de fusionner et on met leur vélocité à celle que nous avons calculé précédemment, grâce à une formule de math, -R qui est une constante qui représente l'énergie perdue lors du rebond._
 
 On obtient donc une simulation presque réaliste. Mais il y a un petit problème dans la programmation, en effet on calcule les collisions entre tous les cercles même si ils ne sont très clairement pas en collision ce qui fait très rapidement beaucoup de calculs et créer beaucoup de problèmes de collision.
 
 Nous avons donc eu le choix entre régler ce problème grâce au space partitioning ou de rajouter toute sorte de polygone aux collisions.
 
-J'ai choisi le space partitioning car je voulais que mes collisions marchent à 100%, le space partitioning consiste à couper le monde en une grille et de vérifier les collisions seulement entre objet étant dans le même carré, grâce à cela on baisse grandement le nombre de calcul à effectuer.
+J'ai choisi le space partitioning car je voulais que mes collisions marchent à 100%. Le space partitioning consiste à couper le monde en une grille et de vérifier les collisions seulement entre objet étant dans la même case, grâce à cela on baisse grandement le nombre de calcul à effectuer.
