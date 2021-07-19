@@ -1,11 +1,11 @@
 # Blog Post
 
-Bienvenue sur le blog post technique de mon moteur de jeu réaliser lors de la deuxième partie du module GPR920 à la SAE Institute.
-Lors de se blogpost je vais essayer de vous montrer se que le module ma apporté acompagné de quelque détails technique.
+Bienvenue sur le blog post technique de mon moteur de jeu réalisé lors de la deuxième partie du module GPR920 à la SAE Institute.
+Lors de ce blogpost je vais essayer de vous montrer ce que le module m'a apporté, acompagné de quelques détails techniques.
 
 ## Moteur de jeu
 
-Nous avons tout d'abord commencé le projet par finir les dossiers vecteurs en rajoutant des "operators" qui nous permettent d'éffectuer le calcule désirer sans le réécrire à chause fois. Celà fut très important car les vecteurs furent utilisé du début à la fin du projet.
+Nous avons tout d'abord commencé le projet par finir les dossiers vecteurs en rajoutant des "operators" qui nous permettent d'effectuer le calcul désiré sans le réécrire à chaque fois. Cela fut très important car les vecteurs furent utilisés du début à la fin du projet.
 
 ![image](https://user-images.githubusercontent.com/71375990/126193762-27c1256c-889e-44dd-9edb-7022630af686.png)
 
