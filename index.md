@@ -9,28 +9,28 @@ Nous avons tout d'abord commencé le projet par finir les dossiers vecteurs en r
 
 ![image](https://user-images.githubusercontent.com/71375990/126193762-27c1256c-889e-44dd-9edb-7022630af686.png)
 
-Un operator permettent d'aditionner les vecteurs entre eux.
+Les operator permettent d'additionner les vecteurs entre eux.
 
-Nous avons aussi pour la première fois découvert une partie cruciale de la programation et du travail en entreprise. En effet les Tests nous servent sur plusieurs points, ils nous aident à savoir si le programme nous donne le résultat désirer pour des exemples en particulier, puis aprés avoir déterminer quel partie du code il faut refaire ils sont d'une grande aide pour déboguer. De plus en entreprise ils sont les seules qui permetent de prouver que notre code fonctionner avant de le mettre en commun et qui donc si les tests ne passe plus après celà, se n'est pas notre faute. J'ai donc retenue que malgrés le temps suplémentaire que nous prennont à les mettres en place, les tests sont vraimment utiles et peuvent mêmes nous faire gagner du temps, il faut donc en faire à un maximum d'endroits possible.
+Nous avons aussi pour la première fois découvert une partie cruciale de la programmation et du travail en entreprise. En effet les tests nous servent sur plusieurs points, ils nous aident à savoir si le programme nous donne le résultat désiré pour des exemples en particulier, puis après avoir déterminé quelle partie du code il faut refaire ils sont d'une grande aide pour déboguer. De plus, en entreprise ils sont les seuls qui permettent de prouver que notre code fonctionnait avant de le mettre en commun et que donc si les tests ne passent plus après cela, ce n'est pas notre faute. J'ai donc retenu que malgrés le temps suplémentaire que nous prennons à les mettres en place, les tests sont vraiment utiles et peuvent mêmes nous faire gagner du temps, il faut donc en faire à un maximum d'endroits possible.
 
 ![image](https://user-images.githubusercontent.com/71375990/126197453-4ffcef6e-e387-40e7-8024-83daf7ae00fb.png)
 
-Test de taille et du centre de plusieurs rectangle.
+Test de taille et du centre de plusieurs rectangles.
 
-Suite à celà nous avons de nombreuses structures de données accompagné de leurs calcules et tests.
+Suite à cela nous avons créé de nombreuses structures de données accompagnées de leurs calculs et tests.
 
 ![image](https://user-images.githubusercontent.com/71375990/126197506-d368858c-6582-4c30-98e1-f1ded191e594.png)
 
-AABB entour les polygone d'un carré puis on les projettes en x et y pour voir si il ya contact.
+AABB entours les polygones d'un carré puis on les projette en "x" et "y" pour voir si contact a lieu.
 
-Durant cette partie grâce à mes nombreuses questions je penses avoir améliorer mon niveau en c++, en géométrie et en math. J'ai aussi apris pour la première fois comment utilisé un matrice.
+Durant cette partie grâce à mes nombreuses questions je pense avoir amélioré mon niveau en c++, en géométrie et en math. J'ai aussi appris pour la première fois comment utiliser une matrice.
 
 ![image](https://user-images.githubusercontent.com/71375990/126194261-c032d48b-977e-4aee-afc6-a5223b808aa5.png)
 
-Résolution de matrice grâce à la méthode de cramer (n'hescésite le déterminent)
+Résolution de matrice grâce à la méthode de cramer (necessite le déterminent)
 
 
-Lors d'une deuxième partie nous avons reçu un programme qui pouvait déssiner des cercles qui tomber et nous avons pour objectif de les faires rebondire et avoir des collisions réaliste. Cette partie fût plus compliquer pour moi. Voici quelque exemple de code, la fontion RelocateCenter nous permet de faire en sorte que les balles ne fusionnent pas.
+Lors d'une deuxième partie nous avons reçu un programme qui pouvait dessiner des cercles qui tombaient et nous avons pour objectif de les faire rebondir et avoir des collisions réalistes. Cette partie fût plus compliquée pour moi. Voici quelques exemples de code, la fonction RelocateCenter nous permet de faire en sorte que les balles ne fusionnent pas.
 
 ![image](https://user-images.githubusercontent.com/71375990/126194350-8f93a1a4-5bd6-44bc-b853-a4ef0bec2667.png)
 
