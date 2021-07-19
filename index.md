@@ -9,13 +9,13 @@ Nous avons tout d'abord commencé le projet en finissant les dossiers vecteurs e
 
 ![image](https://user-images.githubusercontent.com/71375990/126193762-27c1256c-889e-44dd-9edb-7022630af686.png)
 
-Les operators permettent d'additionner les vecteurs entre eux.
+_Les operators permettent d'additionner les vecteurs entre eux._
 
-Nous avons aussi pour la première fois découvert une partie cruciale de la programmation et du travail en entreprise. En effet les tests nous servent sur plusieurs points, ils nous aident à savoir si le programme nous donne le résultat désiré pour des exemples en particulier, puis après avoir déterminé quelle partie du code il faut refaire ils sont d'une grande aide pour déboguer. De plus, en entreprise ils sont les seuls qui permettent de prouver que notre code fonctionnait avant de le mettre en commun et que donc si les tests ne passent plus après cela, ce n'est pas notre faute. J'ai donc retenu que malgrés le temps suplémentaire que nous prennons à les mettres en place, les tests sont vraiment utiles et peuvent mêmes nous faire gagner du temps, il faut donc en faire à un maximum d'endroits possible.
+Nous avons aussi pour la première fois découvert une partie cruciale de la programmation et du travail en entreprise. En effet les  **tests** nous servent sur plusieurs points, ils nous aident à savoir si le programme nous donne le résultat désiré pour des exemples en particulier, puis après avoir déterminé quelle partie du code il faut refaire ils sont d'une grande aide pour déboguer. De plus, en entreprise ils sont les seuls qui permettent de prouver que notre code fonctionnait avant de le mettre en commun et qu'ainsi, si les tests ne passent plus après cela, ce n'est pas notre faute. J'ai donc retenu que malgrés le temps supplémentaire que nous prennons à les mettres en place, les tests sont vraiment utiles et peuvent mêmes nous faire gagner du temps. Il faut donc en faire à un maximum d'endroits possible.
 
 ![image](https://user-images.githubusercontent.com/71375990/126197453-4ffcef6e-e387-40e7-8024-83daf7ae00fb.png)
 
-Test de taille et du centre de plusieurs rectangles.
+_Test de taille et du centre de plusieurs rectangles._
 
 Suite à cela nous avons créé de nombreuses structures de données accompagnées de leurs calculs et tests.
 
