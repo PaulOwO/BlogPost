@@ -9,35 +9,31 @@ Nous avons tout d'abord commencé le projet par finir les dossiers vecteurs en r
 
 ![image](https://user-images.githubusercontent.com/71375990/126193762-27c1256c-889e-44dd-9edb-7022630af686.png)
 
-Nous avons aussi pour la première fois découvert une partie cruciale de la programation et du travail en entreprise. En effet les Tests nous servent sur plusieurs points, ils nous aident à savoir si le programme nous donne le résultat désirer pour des exemples en particulier, puis aprés avoir déterminer quel partie du code il faut refaire ils sont d'une grande aide pour déboguer. De plus en entreprise ils sont les seules qui permetent de prouver que notre code fonctionner avant de le mettre en commun et qui donc si les tests ne passe plus après celà, se n'est pas notre faute. J'ai donc retenue que malgrés le temps suplémentaire que nous prennont à les mettres en place, les tests sont vraimment utiles et peuvent mêmes nous faire gagner du temps, il faut donc en faire à un maximum d'endroits possible. : mettre exemples
+Nous avons aussi pour la première fois découvert une partie cruciale de la programation et du travail en entreprise. En effet les Tests nous servent sur plusieurs points, ils nous aident à savoir si le programme nous donne le résultat désirer pour des exemples en particulier, puis aprés avoir déterminer quel partie du code il faut refaire ils sont d'une grande aide pour déboguer. De plus en entreprise ils sont les seules qui permetent de prouver que notre code fonctionner avant de le mettre en commun et qui donc si les tests ne passe plus après celà, se n'est pas notre faute. J'ai donc retenue que malgrés le temps suplémentaire que nous prennont à les mettres en place, les tests sont vraimment utiles et peuvent mêmes nous faire gagner du temps, il faut donc en faire à un maximum d'endroits possible.
 
+![image](https://user-images.githubusercontent.com/71375990/126194147-10dafe3c-9905-4295-9b9b-4c487529efcf.png)
 
-Suite à celà nous avons de nombreuses structures de données accompagné de leurs calcules et tests. Comme par exemple les rectangles et AABB qui sert a déterminer si deux polygones sont en contact : mettre exemple.
+Suite à celà nous avons de nombreuses structures de données accompagné de leurs calcules et tests. Comme par exemple les rectangles et AABB qui sert a déterminer si deux polygones sont en contact.
 
-Durant cette partie grâce à mes nombreuses questions je penses avoir améliorer mon niveau en c++, en géométrie et en math. J'ai aussi apris pour la première fois comment utilisé un matrice exemple cramer.
+![image](https://user-images.githubusercontent.com/71375990/126194195-111418df-0eaf-4ceb-81ac-bec9d57c51e8.png)
 
-Lors d'une deuxième partie nous avons reçu un programme qui pouvait déssiner des cercles qui tomber et nous avons pour objectif de les faires rebondire et avoir des collisions réaliste. Cette partie fût plus compliquer pour moi. Voici quelque exemple de code : la fontion RelocateCenter nous permet de faire en sorte que les balles ne fusionnent pas .
+Durant cette partie grâce à mes nombreuses questions je penses avoir améliorer mon niveau en c++, en géométrie et en math. J'ai aussi apris pour la première fois comment utilisé un matrice.
 
-se code signifie que si il ya une intersection entre deux balles on replace le centre des deux balles pour les empecher de fusionner et on met leur vélocité a celle que nous avons calculé précédemment grâce a un theore de math - R qui est une constante qui représente l'énergie perdu lors du rebond.
+![image](https://user-images.githubusercontent.com/71375990/126194261-c032d48b-977e-4aee-afc6-a5223b808aa5.png)
+
+Lors d'une deuxième partie nous avons reçu un programme qui pouvait déssiner des cercles qui tomber et nous avons pour objectif de les faires rebondire et avoir des collisions réaliste. Cette partie fût plus compliquer pour moi. Voici quelque exemple de code, la fontion RelocateCenter nous permet de faire en sorte que les balles ne fusionnent pas.
+
+![image](https://user-images.githubusercontent.com/71375990/126194350-8f93a1a4-5bd6-44bc-b853-a4ef0bec2667.png)
+
+Le code suivant signifie que si il ya une intersection entre deux balles on replace le centre des deux balles pour les empecher de fusionner et on met leur vélocité a celle que nous avons calculé précédemment grâce a un theore de math - R qui est une constante qui représente l'énergie perdu lors du rebond.
+
+![image](https://user-images.githubusercontent.com/71375990/126194507-77ea2daa-90d5-4c24-8311-92514429c5f7.png)
 
 On obtient donc une simulation presque réaliste. Mais il ya un petit problème dans la programation, en effet on calcule les collisions entre tout les cercles même si il ne sont trés clairement pas en collision se qui fai très rapidement beaucoup de calcul et créer beaucoup de problème de collision.
 
 Nous avons donc eu le choix entre régler se problème grâce au space partitionnig ou de rajouter toute sorte de polygone au collsions.
 
 J'ai choisi le space partitionnig car je voulais que mes collisions marche a 100%, le space partionning constiste à couper le monde en une gride et de vérifier les collisions seulement entre objet étant dans le même carré, grâce à celà on baisse grandement le nombre de calcul à effectuer.
-
-![Image](https://github.com/PaulOwO/BlogPost/blob/gh-pages/assets/css/28.jpg?raw=true)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
