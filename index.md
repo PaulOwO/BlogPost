@@ -18,9 +18,11 @@ Lors d'une deuxième partie nous avons reçu un programme qui pouvait déssiner 
 
 se code signifie que si il ya une intersection entre deux balles on replace le centre des deux balles pour les empecher de fusionner et on met leur vélocité a celle que nous avons calculé précédemment grâce a un theore de math - R qui est une constante qui représente l'énergie perdu lors du rebond.
 
-On obtient donc une simulation presque réaliste. Mais il ya un petit problème dans la programation, en effet on calcule les collision entre tout les objet même si il n'ya
+On obtient donc une simulation presque réaliste. Mais il ya un petit problème dans la programation, en effet on calcule les collisions entre tout les cercles même si il ne sont trés clairement pas en collision se qui fai très rapidement beaucoup de calcul et créer beaucoup de problème de collision.
 
-Pour finir le moteur de jeu nous
+Nous avons donc eu le choix entre régler se problème grâce au space partitionnig ou de rajouter toute sorte de polygone au collsions.
+
+J'ai choisi le space partitionnig car je voulais que mes collisions marche a 100%, le space partionning constiste à couper le monde en une gride et de vérifier les collisions seulement entre objet étant dans le même carré, grâce à celà on baisse grandement le nombre de calcul à effectuer.
 
 
 
