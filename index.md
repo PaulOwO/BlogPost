@@ -24,7 +24,7 @@ Nous avons donc eu le choix entre régler se problème grâce au space partition
 
 J'ai choisi le space partitionnig car je voulais que mes collisions marche a 100%, le space partionning constiste à couper le monde en une gride et de vérifier les collisions seulement entre objet étant dans le même carré, grâce à celà on baisse grandement le nombre de calcul à effectuer.
 
-![Image](https://github.com/PaulOwO/BlogPost/blob/gh-pages/assets/css/1.png)
+![Image](https://github.com/PaulOwO/BlogPost/blob/gh-pages/assets/css/28.jpg?raw=true)
 
 
 
